@@ -1,6 +1,4 @@
-
-public class Pessoa {
-
+public class pessoa {
 
     // Atributos
     public String nome;
@@ -9,7 +7,20 @@ public class Pessoa {
     public String email;
     public String telefone;
 
+    public pessoa (
+        String nome,
+        Integer idade,
+        String cpf,
+        String email,
+        String telefone
+){
+    this.nome = nome;
+    this.idade = idade;
+    this.cpf = cpf;
+    this.email = email;
+    this.telefone = telefone;
 
+}
     // Métodos
     public void apresentar() {
         System.out.println("Olá, meu nome é " + this.nome + " e tenho " + this.idade + "anos.");
@@ -38,4 +49,4 @@ public class Pessoa {
 
 
     }
-}//
+}
